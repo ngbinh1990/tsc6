@@ -9,6 +9,7 @@ import {
 } from '@mui/material';
 
 import { Link } from 'react-router-dom';
+import { styled } from '@mui/material/styles';
 
 import { gsap } from 'gsap';
 import { Navigation, Pagination, Autoplay } from 'swiper';
