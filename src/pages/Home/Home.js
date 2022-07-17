@@ -6,8 +6,9 @@ import {
 	Grid,
 	Stack,
 	Typography,
-	Link,
 } from '@mui/material';
+
+import { Link } from 'react-router-dom';
 
 import { gsap } from 'gsap';
 import { Navigation, Pagination, Autoplay } from 'swiper';
@@ -18,6 +19,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import './Home.css';
+
+const CustomLink = styled(Link)`
+	text-decoration: none;
+`;
 
 const Home = () => {
 	const boxPicture01 = useRef();
@@ -70,8 +75,10 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='dichvu01' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink
+								className='dichvu01'
+								to='dich-vu/quan-ly-chung-cu'></CustomLink>
+							<CustomLink to='dich-vu/quan-ly-chung-cu'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -81,8 +88,8 @@ const Home = () => {
 									}}>
 									QUẢN LÝ CHUNG CƯ
 								</Typography>
-							</Link>
-							<Link href='#' underline='none'>
+							</CustomLink>
+							<CustomLink to='dich-vu/quan-ly-chung-cu'>
 								<Typography color={'black'}>
 									TSC6 nhận thức được mối quan tâm lớn nhất của các chủ sở hữu
 									nhà chung cư đặt ra đối với công tác quản lý vận hành nhà
@@ -90,7 +97,7 @@ const Home = () => {
 									hiệu quả; giảm thiểu chi phí; đảm bảo chất lượng dịch vụ; đảm
 									bảo gia tăng giá trị bất động sản.
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Grid
 							item
