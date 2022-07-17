@@ -8,7 +8,6 @@ import {
 	Typography,
 } from '@mui/material';
 
-import { Link } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 
 import { gsap } from 'gsap';
@@ -20,6 +19,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 import './Home.css';
+
+import { Link } from 'react-router-dom';
 
 const CustomLink = styled(Link)`
 	text-decoration: none;
