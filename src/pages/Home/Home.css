@@ -1,0 +1,291 @@
+
+
+.highlight {
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 160px);
+	background-image: url(../../assets/img/banner/ban01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -100;
+}
+
+.picture01 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/img/banner/ban01.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -2;
+}
+
+.picture03 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/img/banner/ban03.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -3;
+}
+
+.picture04 {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/img/banner/ban04.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -4;
+}
+
+.section-two {
+	background-image: url(../../assets/img/dichVu/background.png);
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+
+.dichvu01 {
+	background-image: url(../../assets//img/dichVu/IMAGE01.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 216px;
+}
+
+.dichvu02 {
+	background-image: url(../../assets//img/dichVu/IMAGE02.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 216px;
+}
+
+.dichvu03 {
+	background-image: url(../../assets//img/dichVu/IMAGE03.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 216px;
+}
+
+.section-three {
+	width: 100%;
+	height: 450px;
+	position: relative;
+	margin-bottom: 100px;
+}
+
+.duan01 {
+	background-image: url(../../assets/img/duan/IMAGE01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+.duan02 {
+	background-image: url(../../assets/img/duan/IMAGE02.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 300px;
+}
+.duan03 {
+	background-image: url(../../assets/img/duan/IMAGE03.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 300px;
+}
+
+.section-four {
+	width: 100%;
+	height: 450px;
+	position: relative;
+	background-image: url(../../assets/img/thuemua/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.thuemua01 {
+	background-image: url(../../assets/img/thuemua/IMAGE01.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 214px;
+}
+.thuemua02 {
+	background-image: url(../../assets/img/thuemua/IMAGE02.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 214px;
+}
+.thuemua03 {
+	background-image: url(../../assets/img/thuemua/IMAGE03.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 214px;
+}
+
+.section-five {
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+
+.tintuc01 {
+	display: block;
+	position: relative;
+	background-image: url(../../assets/img/tintuc/IMAGE01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 160px;
+}
+.tintuc02 {
+	display: block;
+	position: relative;
+	background-image: url(../../assets/img/tintuc/IMAGE02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 160px;
+}
+.tintuc04 {
+	display: block;
+	position: relative;
+	background-image: url(../../assets/img/tintuc/IMAGE04.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+}
+
+.tintuc03 {
+	display: block;
+	position: relative;
+	background-image: url(../../assets/img/tintuc/IMAGE03.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 160px;
+}
+
+.tintuc05 {
+	display: block;
+	position: relative;
+	background-image: url(../../assets/img/tintuc/IMAGE03.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 160px;
+}
+
+.section-six {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	background-image: url(../../assets/img/doitac/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.swiper {
+	width: 100%;
+	height: 200px;
+}
+
+.swiper-wrapper {
+	width: 100%;
+	height: 135px;
+}
+
+.swiper-slide {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 15px;
+
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slide1 {
+	background-image: url(../../assets/img/doitac/IMAGE01.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide2 {
+	background-image: url(../../assets/img/doitac/IMAGE02.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide3 {
+	background-image: url(../../assets/img/doitac/IMAGE03.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide4 {
+	background-image: url(../../assets/img/doitac/IMAGE04.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide5 {
+	background-image: url(../../assets/img/doitac/IMAGE05.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.slide6 {
+	background-image: url(../../assets/img/doitac/IMAGE06.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+	top: 35%;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet:active {
+	background-color: #ffffff;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+	bottom: 30px;
+}

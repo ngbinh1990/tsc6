@@ -1,0 +1,94 @@
+.section-one {
+	position: relative;
+	width: 100%;
+}
+
+.footer {
+	width: 100%;
+	height: 400px;
+	background-color: #e2eff7;
+}
+
+.footer-logo {
+	width: 170px;
+	height: 107px;
+	background-image: url(../../assets/img/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.support {
+	width: 100%;
+	height: 220px;
+	background-image: url(../../assets/img/footer/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	top: 45px;
+}
+
+.map {
+	display: block;
+	width: 100%;
+	height: 220px;
+	background-image: url(../../assets/img/footer/map.PNG);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	top: 105px;
+}
+
+.phone {
+	background-color: rgb(0, 162, 255);
+	padding: 8px;
+	width: 20px;
+	height: 20px;
+	margin-right: 25px;
+	position: relative;
+	z-index: 5;
+	border-radius: 5px;
+}
+.zalo {
+	background-image: url(../../assets/img/icon/zalo.png);
+	padding: 8px;
+	width: 20px;
+	height: 20px;
+	margin-right: 25px;
+	position: relative;
+	z-index: 5;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.viber {
+	background-image: url(../../assets/img/icon/viber.png);
+	padding: 8px;
+	width: 20px;
+	height: 20px;
+	margin-right: 25px;
+	position: relative;
+	z-index: 5;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.mail {
+	background-image: url(../../assets/img/icon/Email.png);
+	padding: 8px;
+	width: 20px;
+	height: 20px;
+	margin-right: 25px;
+	position: relative;
+	z-index: 5;
+	border-radius: 5px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

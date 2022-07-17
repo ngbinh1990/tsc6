@@ -1,0 +1,28 @@
+.about {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	margin-bottom: 50px;
+	z-index: -10;
+}
+
+.pic1 {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background-image: url(../../assets/img/gioithieu/about/pic01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 50px;
+}
+.pic2 {
+	position: relative;
+	width: 100%;
+	height: 50%;
+	background-image: url(../../assets/img/gioithieu/about/pic02.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 20px;
+}

@@ -1,0 +1,16 @@
+.vission {
+	position: relative;
+	margin: 20px 0 100px 0;
+	width: 100%;
+	z-index: -10;
+}
+
+.vis01 {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url(../../assets/img/gioithieu/vission/pic01.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
