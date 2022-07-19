@@ -78,8 +78,8 @@ const Home = () => {
 								alignItems: 'center',
 							}}>
 							<CustomLink
-								className='dichvu01'
-								to='dich-vu/quan-ly-chung-cu'></CustomLink>
+								to='dich-vu/quan-ly-chung-cu'
+								className='dichvu01'></CustomLink>
 							<CustomLink to='dich-vu/quan-ly-chung-cu'>
 								<Typography
 									sx={{
@@ -109,8 +109,10 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='dichvu02' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink
+								className='dichvu02'
+								to='dich-vu/quan-ly-van-phong'></CustomLink>
+							<CustomLink to='dich-vu/quan-ly-van-phong'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -120,8 +122,8 @@ const Home = () => {
 									}}>
 									QUẢN LÝ VĂN PHÒNG
 								</Typography>
-							</Link>
-							<Link href='#' underline='none'>
+							</CustomLink>
+							<CustomLink to='dich-vu/quan-ly-van-phong'>
 								<Typography color={'black'}>
 									Chủ đầu tư và người sử dụng văn phòng luôn mong muốn có đơn vị
 									quản lý chuyên nghiệp nhằm đảm bảo tòa nhà có tỉ lệ sử dụng
@@ -129,7 +131,7 @@ const Home = () => {
 									lại hiệu quả, an toàn, nâng giá trị bất động sản và vị thế các
 									doanh nghiệp hoạt động trong tòa nhà.
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Grid
 							item
@@ -139,8 +141,10 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='dichvu03' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink
+								className='dichvu03'
+								to='dich-vu/quan-ly-bds-khac'></CustomLink>
+							<CustomLink to='dich-vu/quan-ly-bds-khac'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -150,8 +154,8 @@ const Home = () => {
 									}}>
 									QUẢN LÝ BĐS KHÁC
 								</Typography>
-							</Link>
-							<Link href='#' underline='none'>
+							</CustomLink>
+							<CustomLink to='dich-vu/quan-ly-bds-khac'>
 								<Typography color={'black'}>
 									Đội ngũ nhân sự của công ty TSC6 được đào tạo nghiệp vụ,
 									chuyên môn quản lý vận hành, và nhiều kinh nghiệm thực tế.
@@ -159,7 +163,7 @@ const Home = () => {
 									loại hình bất động sản: tòa nhà hỗn hợp, trung tâm thương mại,
 									căn hộ du lịch - nghỉ dưỡng...
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 					</Grid>
 				</Container>
@@ -191,8 +195,8 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='duan01' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='duan01' to='du-an/ha-noi'></CustomLink>
+							<CustomLink to='du-an/ha-noi'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -202,7 +206,7 @@ const Home = () => {
 									}}>
 									DIAMOND FLOWER
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Grid
 							item
@@ -212,8 +216,8 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='duan02' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='duan02' to='du-an/ha-noi'></CustomLink>
+							<CustomLink to='du-an/ha-noi'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -223,7 +227,7 @@ const Home = () => {
 									}}>
 									GOLDEN PALM
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Grid
 							item
@@ -233,8 +237,8 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='duan03' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='duan03' to='du-an/nha-trang'></CustomLink>
+							<CustomLink to='du-an/nha-trang'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -244,7 +248,7 @@ const Home = () => {
 									}}>
 									MARINA SUITES
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 					</Grid>
 				</Container>
@@ -276,8 +280,8 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='thuemua01' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='thuemua01' to='#'></CustomLink>
+							<CustomLink to='#'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -287,7 +291,7 @@ const Home = () => {
 									}}>
 									VĂN PHÒNG - DIAMOND FLOWER - HÀ NỘI
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Grid
 							item
@@ -297,8 +301,8 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='thuemua02' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='thuemua02' to='#'></CustomLink>
+							<CustomLink to='#'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -308,7 +312,7 @@ const Home = () => {
 									}}>
 									CĂN HỘ - GREEN DIAMOND - HẠ LONG
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Grid
 							item
@@ -318,8 +322,8 @@ const Home = () => {
 								flexDirection: 'column',
 								alignItems: 'center',
 							}}>
-							<Link className='thuemua03' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='thuemua03' to='#'></CustomLink>
+							<CustomLink to='#'>
 								<Typography
 									sx={{
 										margin: '12px 0px',
@@ -329,7 +333,7 @@ const Home = () => {
 									}}>
 									CONDOTEL - MARINA SUITES - NHA TRANG
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 					</Grid>
 				</Container>
@@ -356,13 +360,13 @@ const Home = () => {
 						<Grid item md={3}>
 							<Stack direction={'column'}>
 								<Box>
-									<Link className='tintuc01' href='#'></Link>
-									<Link href='#' underline='none'>
+									<CustomLink className='tintuc01' to='#'></CustomLink>
+									<CustomLink to='#'>
 										<Typography sx={{ marginTop: '10px' }}>
 											Hoạt động ủng hộ công tác phòng chống dịch COVID - 19 của
 											công ty TSC6
 										</Typography>
-									</Link>
+									</CustomLink>
 								</Box>
 								<Divider
 									orientation='horizontal'
@@ -371,13 +375,13 @@ const Home = () => {
 									sx={{ height: '20px', marginBottom: '10px' }}
 								/>
 								<Box>
-									<Link className='tintuc02' href='#'></Link>
-									<Link href='#' underline='none'>
+									<CustomLink className='tintuc02' to='#'></CustomLink>
+									<CustomLink to='#'>
 										<Typography sx={{ marginTop: '10px' }}>
 											Thực hành quy trình thao tác vận hành tủ hòa đồng bộ tại
 											Diamond Flower
 										</Typography>
-									</Link>
+									</CustomLink>
 								</Box>
 							</Stack>
 						</Grid>
@@ -388,8 +392,8 @@ const Home = () => {
 							sx={{ marginLeft: '10px', marginTop: '8px' }}
 						/>
 						<Grid item md={5}>
-							<Link className='tintuc04' href='#'></Link>
-							<Link href='#' underline='none'>
+							<CustomLink className='tintuc04' to='#'></CustomLink>
+							<CustomLink to='#'>
 								<Typography sx={{ marginTop: '10px', fontWeight: '600' }}>
 									Thực hành quy trình xử lý tình huống báo cháy, chữa cháy & cứu
 									nạn, cứu hộ tại Diamond Flower
@@ -404,7 +408,7 @@ const Home = () => {
 									3. Thành phần Bộ phận kỹ thuật tham gia: Tất cả thành viên của
 									bộ phận kỹ thuật.
 								</Typography>
-							</Link>
+							</CustomLink>
 						</Grid>
 						<Divider
 							orientation='vertical'
@@ -415,13 +419,13 @@ const Home = () => {
 						<Grid item md={3}>
 							<Stack direction={'column'}>
 								<Box>
-									<Link className='tintuc03' href='#'></Link>
-									<Link href='#' underline='none'>
+									<CustomLink className='tintuc03' to='#'></CustomLink>
+									<CustomLink to='#' underline='none'>
 										<Typography sx={{ marginTop: '10px' }}>
 											Tuyển Dụng Kỹ thuật viên vận hành tòa nhà tại Hà nội. Số
 											lượng : 05. Mức lương: 7 - 10 triệu.
 										</Typography>
-									</Link>
+									</CustomLink>
 								</Box>
 								<Divider
 									orientation='horizontal'
@@ -430,13 +434,13 @@ const Home = () => {
 									sx={{ height: '20px', marginBottom: '10px' }}
 								/>
 								<Box>
-									<Link className='tintuc05' href='#'></Link>
-									<Link href='#' underline='none'>
+									<CustomLink className='tintuc05' to='#'></CustomLink>
+									<CustomLink to='#'>
 										<Typography sx={{ marginTop: '10px' }}>
 											Tuyển Dụng Lễ tân tòa nhà tại Hà nội. Số lượng: 03. Mức
 											lương: 6 - 7.5 triệu.
 										</Typography>
-									</Link>
+									</CustomLink>
 								</Box>
 							</Stack>
 						</Grid>
